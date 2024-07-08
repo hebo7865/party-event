@@ -1,0 +1,163 @@
+#home{
+    position: relative;
+    color: white;
+    height: 94vh;
+    background-image: url('../images/events-heavenly-header.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+
+h1{
+    font-size: 60px;
+}
+
+.open-nav{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.side-nav
+{
+    background-color: #111;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    height: 100%;
+    transition: 0.5s;
+    width: 0;
+    white-space: nowrap;
+    padding-top: 60px;
+}
+
+.side-nav .close-btn
+{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.side-nav a
+{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px 8px 20px 32px;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+
+.side-nav a:hover
+{
+    color: rgba(214, 46, 51 , 0.4);
+}
+
+.details-content
+{
+    width: 60%;
+}
+
+h3
+{
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+    color: white;
+}
+
+.inner
+{
+    display: none;
+    background-color: #ccc;
+    padding: 10px;
+}
+
+.first
+{
+    display: block;
+}
+
+#duration
+{
+    background-image: url('../images/invitation-2508607__340.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.time
+{
+    border: 1px solid white;
+    padding: 50px;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.social ul li i
+{
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    color: #777;
+    margin-right: 10px;
+}
+
+.social ul li i:hover
+{
+    background-color: #D62E33;
+    color: white;
+    border-color: #D62E33;
+}
+
+#contact
+{
+    color: #777;
+}
+
+.title h2,
+h5
+{
+    color: #444;
+    font-weight: bold;
+}
+
+.title h2
+{
+    font-size: 35px;
+}
+
+h5
+{
+    font-size: 18px;
+}
+
+#chars
+{
+    font-size: 20px;
+    color: #D62E33;
+}
+
+.mail
+{
+    color: #D62E33;
+}
+
+form p
+{
+    color: #111;
+}
